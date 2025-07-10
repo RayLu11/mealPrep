@@ -122,8 +122,8 @@ const useMealStore = create(
               name: (ing.name || '').trim().toLowerCase()
             }
           })
-          // Ingredient match logic
-          const ingredientMatches = normalizedRecipe.every(recipeIng => {
+          // Ingredient match logic - show recipes that have ANY matching ingredients
+          const ingredientMatches = normalizedRecipe.some(recipeIng => {
             if (recipeIng.type === 'sauce') {
               return normalizedAvailable.some(avail => 
                 avail.type === 'sauce' && 
