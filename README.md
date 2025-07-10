@@ -1,192 +1,104 @@
-# MealPrep Genie 🧾
+# MealPrep Genie 🍳✨
 
-An AI-powered meal prep planner that helps you create delicious recipes based on the ingredients you already have in your kitchen. No more wasted groceries!
+An AI-powered meal prep planner that suggests recipes based on your available ingredients. Built with React, Tailwind CSS, and Zustand for state management.
 
-## ✨ Features
+## 🌟 Features
 
-- **Smart Ingredient Matching**: Input your available ingredients and get recipe suggestions
-- **AI-Powered Recommendations**: Enhanced matching algorithm with scoring system
-- **Mobile-First Design**: Optimized for mobile devices with responsive layout
-- **Recipe Management**: Save favorites, view detailed recipes with nutrition info
-- **Advanced Filtering**: Filter by dietary preferences, cuisine, difficulty, and category
-- **Ingredient Tracking**: See which ingredients you have vs. what you need
-- **Persistent Storage**: Your ingredients and favorites are saved locally
+- **Smart Recipe Matching**: Find recipes based on ingredients you have
+- **AI-Powered Suggestions**: Get intelligent recipe recommendations
+- **Custom Recipe Management**: Add, edit, and delete your own recipes
+- **Ingredient Tracking**: See what you have vs. what you need
+- **Mobile-First Design**: Beautiful responsive interface
+- **Local Storage**: Your recipes persist across sessions
 
-## 🚀 Quick Start
+## 🚀 Live Demo
 
-### Prerequisites
-
-- Node.js (v16 or higher)
-- npm or yarn
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd mealPrep
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Start the development server**
-   ```bash
-   npm run dev
-   ```
-
-4. **Open your browser**
-   Navigate to `http://localhost:3000`
+Visit: [https://yourusername.github.io/mealPrep](https://yourusername.github.io/mealPrep)
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React 18 with Vite
+- **Frontend**: React 18 + Vite
 - **Styling**: Tailwind CSS
-- **State Management**: Zustand with persistence
-- **Routing**: React Router DOM
+- **State Management**: Zustand
 - **Icons**: Lucide React
-- **Build Tool**: Vite
+- **Routing**: React Router DOM
+- **Deployment**: GitHub Pages
 
-## 📱 Mobile-First Design
+## 📦 Installation
 
-The app is designed with mobile users in mind:
-- Responsive grid layouts
-- Touch-friendly buttons and inputs
-- Optimized navigation
-- Fast loading times
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/mealPrep.git
+cd mealPrep
 
-## 🧠 AI Integration
+# Install dependencies
+npm install
 
-The app includes a framework for AI-powered recipe suggestions:
+# Start development server
+npm run dev
+```
 
-### Current Implementation
-- Enhanced local recipe matching with scoring
-- Ingredient similarity detection
-- Match percentage calculations
+## 🚀 Deployment
 
-### Future AI Enhancements
-The code includes commented examples for:
-- OpenAI GPT-3.5 Turbo integration
-- HuggingFace model integration
-- Custom AI recipe generation
+### Automatic Deployment (Recommended)
 
-To enable actual AI features, uncomment and configure the API calls in `src/utils/aiSuggest.js`.
+1. **Push to GitHub**: The app automatically deploys when you push to the `main` branch
+2. **GitHub Actions**: The workflow builds and deploys to GitHub Pages
+3. **Settings**: Go to your repo Settings → Pages → Source: "Deploy from a branch" → Branch: "gh-pages"
+
+### Manual Deployment
+
+```bash
+# Build the project
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
+```
 
 ## 📁 Project Structure
 
 ```
-src/
-├── components/          # Reusable UI components
-│   ├── Header.jsx      # Navigation header
-│   ├── InputForm.jsx   # Ingredient input form
-│   ├── RecipeCard.jsx  # Recipe display card
-│   └── RecipeList.jsx  # Recipe grid with filters
-├── pages/              # Page components
-│   ├── Home.jsx        # Main landing page
-│   └── RecipeDetail.jsx # Detailed recipe view
-├── store/              # State management
-│   └── mealStore.js    # Zustand store
-├── data/               # Static data
-│   └── recipes.json    # Recipe database
-├── utils/              # Utility functions
-│   └── aiSuggest.js    # AI suggestion logic
-└── App.jsx             # Main app component
+mealPrep/
+├── src/
+│   ├── components/     # Reusable UI components
+│   ├── pages/         # Page components
+│   ├── store/         # Zustand state management
+│   ├── data/          # Static recipe data
+│   └── utils/         # Utility functions
+├── public/            # Static assets
+└── .github/workflows/ # GitHub Actions
 ```
 
-## 🎯 Key Features Explained
+## 🎯 How to Use
 
-### Ingredient Input System
-- Tag-based ingredient entry
-- Real-time ingredient matching
-- Easy ingredient removal
-- Clear all functionality
+1. **Add Ingredients**: Enter what you have in your kitchen
+2. **Get Suggestions**: Browse AI-recommended recipes
+3. **View Details**: Click on recipes to see full instructions
+4. **Add Custom Recipes**: Create your own recipes
+5. **Manage Favorites**: Save your favorite recipes
 
-### Recipe Matching Engine
-- Fuzzy ingredient matching
-- Match percentage scoring
-- Missing ingredient detection
-- Filtered recommendations
+## 🔧 Configuration
 
-### Recipe Display
-- Beautiful recipe cards with images
-- Detailed recipe pages
-- Nutrition information
-- Step-by-step instructions
-- Ingredient availability indicators
+### Update Repository Name
 
-### Filtering System
-- Dietary preferences (Vegetarian, Vegan, Gluten-Free, etc.)
-- Cuisine types (Asian, Mediterranean, Italian, etc.)
-- Difficulty levels (Easy, Medium, Hard)
-- Recipe categories (Breakfast, Main Dish, Soup, etc.)
+If your repository is named differently than `mealPrep`, update these files:
 
-## 🔧 Customization
-
-### Adding New Recipes
-Edit `src/data/recipes.json` to add new recipes:
-
-```json
-{
-  "id": 9,
-  "name": "Your Recipe Name",
-  "description": "Recipe description",
-  "prepTime": "15 minutes",
-  "cookTime": "20 minutes",
-  "servings": 4,
-  "difficulty": "Easy",
-  "category": "Main Dish",
-  "cuisine": "International",
-  "dietary": ["Vegetarian", "High Protein"],
-  "ingredients": ["ingredient1", "ingredient2"],
-  "instructions": ["Step 1", "Step 2"],
-  "nutrition": {
-    "calories": 300,
-    "protein": "25g",
-    "carbs": "30g",
-    "fat": "10g"
-  },
-  "image": "https://your-image-url.com/image.jpg"
-}
-```
-
-### Styling Customization
-- Modify `tailwind.config.js` for theme changes
-- Update `src/index.css` for custom styles
-- Use the provided CSS classes for consistency
-
-## 🚀 Deployment
-
-### Build for Production
-```bash
-npm run build
-```
-
-### Deploy Options
-- **Vercel**: Connect your GitHub repository
-- **Netlify**: Drag and drop the `dist` folder
-- **GitHub Pages**: Use the `gh-pages` package
-- **Firebase Hosting**: Use Firebase CLI
+1. **vite.config.js**: Change the base path
+2. **package.json**: Update the homepage URL
+3. **GitHub Actions**: Update the workflow if needed
 
 ## 🤝 Contributing
 
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
+4. Submit a pull request
 
 ## 📄 License
 
-This project is licensed under the MIT License.
-
-## 🙏 Acknowledgments
-
-- Recipe data and images from Unsplash
-- Icons from Lucide React
-- UI inspiration from modern design systems
+MIT License - feel free to use this project for your own meal planning needs!
 
 ---
 
-**Happy cooking! 🍳** 
+**Happy Cooking! 🍽️** 
