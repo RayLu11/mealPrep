@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "description": "AI-powered meal prep planner that suggests recipes based on available ingredients",
   "type": "module",
-  "homepage": "https://yourusername.github.io/mealPrep",
+  "homepage": "https://raylu11.github.io/mealPrep",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
