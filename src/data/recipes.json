@@ -1,0 +1,295 @@
+[
+  {
+    "id": 1,
+    "name": "Chicken Stir Fry",
+    "description": "Quick and healthy chicken stir fry with vegetables",
+    "prepTime": "15 minutes",
+    "cookTime": "10 minutes",
+    "servings": 4,
+    "difficulty": "Easy",
+    "category": "Main Dish",
+    "cuisine": "Asian",
+    "dietary": ["High Protein", "Low Carb"],
+    "ingredients": [
+      {"amount": "1", "type": "lb", "name": "chicken breast"},
+      {"amount": "2", "type": "quantity", "name": "broccoli"},
+      {"amount": "2", "type": "quantity", "name": "carrots"},
+      {"amount": "1", "type": "quantity", "name": "soy sauce"},
+      {"amount": "3", "type": "quantity", "name": "garlic"},
+      {"amount": "1", "type": "quantity", "name": "ginger"},
+      {"amount": "2", "type": "quantity", "name": "vegetable oil"},
+      {"amount": "1", "type": "quantity", "name": "onion"}
+    ],
+    "instructions": [
+      "Cut chicken into bite-sized pieces",
+      "Chop vegetables into similar sizes",
+      "Heat oil in a large wok or pan",
+      "Stir-fry chicken until golden brown",
+      "Add vegetables and stir-fry for 3-4 minutes",
+      "Add soy sauce, garlic, and ginger",
+      "Cook for 2 more minutes and serve"
+    ],
+    "nutrition": {
+      "calories": 280,
+      "protein": "32g",
+      "carbs": "8g",
+      "fat": "12g"
+    },
+    "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400"
+  },
+  {
+    "id": 2,
+    "name": "Quinoa Buddha Bowl",
+    "description": "Nutritious vegetarian bowl with quinoa and roasted vegetables",
+    "prepTime": "20 minutes",
+    "cookTime": "25 minutes",
+    "servings": 2,
+    "difficulty": "Easy",
+    "category": "Main Dish",
+    "cuisine": "Mediterranean",
+    "dietary": ["Vegetarian", "Vegan", "Gluten Free"],
+    "ingredients": [
+      {"amount": "1", "type": "quantity", "name": "quinoa"},
+      {"amount": "1", "type": "quantity", "name": "sweet potato"},
+      {"amount": "1", "type": "quantity", "name": "chickpeas"},
+      {"amount": "2", "type": "quantity", "name": "kale"},
+      {"amount": "1", "type": "quantity", "name": "avocado"},
+      {"amount": "2", "type": "quantity", "name": "olive oil"},
+      {"amount": "1", "type": "quantity", "name": "lemon"},
+      {"amount": "2", "type": "quantity", "name": "garlic"},
+      {"amount": "1", "type": "quantity", "name": "salt"},
+      {"amount": "1", "type": "quantity", "name": "pepper"}
+    ],
+    "instructions": [
+      "Cook quinoa according to package instructions",
+      "Roast sweet potato and chickpeas with olive oil",
+      "Massage kale with olive oil and lemon juice",
+      "Assemble bowl with quinoa base",
+      "Top with roasted vegetables and avocado",
+      "Season with salt and pepper"
+    ],
+    "nutrition": {
+      "calories": 420,
+      "protein": "15g",
+      "carbs": "45g",
+      "fat": "18g"
+    },
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400"
+  },
+  {
+    "id": 3,
+    "name": "Greek Yogurt Parfait",
+    "description": "Protein-rich breakfast parfait with berries and granola",
+    "prepTime": "5 minutes",
+    "cookTime": "0 minutes",
+    "servings": 1,
+    "difficulty": "Easy",
+    "category": "Breakfast",
+    "cuisine": "American",
+    "dietary": ["High Protein", "Vegetarian"],
+    "ingredients": [
+      {"amount": "1", "type": "quantity", "name": "greek yogurt"},
+      {"amount": "1", "type": "quantity", "name": "berries"},
+      {"amount": "1", "type": "quantity", "name": "granola"},
+      {"amount": "1", "type": "quantity", "name": "honey"},
+      {"amount": "1", "type": "quantity", "name": "almonds"}
+    ],
+    "instructions": [
+      "Layer Greek yogurt in a glass or bowl",
+      "Add a layer of berries",
+      "Sprinkle granola on top",
+      "Drizzle with honey",
+      "Garnish with chopped almonds"
+    ],
+    "nutrition": {
+      "calories": 320,
+      "protein": "25g",
+      "carbs": "35g",
+      "fat": "12g"
+    },
+    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400"
+  },
+  {
+    "id": 4,
+    "name": "Salmon with Roasted Vegetables",
+    "description": "Healthy baked salmon with seasonal vegetables",
+    "prepTime": "15 minutes",
+    "cookTime": "20 minutes",
+    "servings": 2,
+    "difficulty": "Medium",
+    "category": "Main Dish",
+    "cuisine": "Mediterranean",
+    "dietary": ["High Protein", "Omega-3", "Gluten Free"],
+    "ingredients": [
+      {"amount": "1", "type": "lb", "name": "salmon fillet"},
+      {"amount": "1", "type": "quantity", "name": "asparagus"},
+      {"amount": "1", "type": "quantity", "name": "cherry tomatoes"},
+      {"amount": "1", "type": "quantity", "name": "lemon"},
+      {"amount": "2", "type": "quantity", "name": "olive oil"},
+      {"amount": "2", "type": "quantity", "name": "garlic"},
+      {"amount": "1", "type": "quantity", "name": "dill"},
+      {"amount": "1", "type": "quantity", "name": "salt"},
+      {"amount": "1", "type": "quantity", "name": "pepper"}
+    ],
+    "instructions": [
+      "Preheat oven to 400°F (200°C)",
+      "Season salmon with salt, pepper, and dill",
+      "Arrange vegetables on a baking sheet",
+      "Place salmon on top of vegetables",
+      "Drizzle with olive oil and lemon juice",
+      "Bake for 18-20 minutes until salmon flakes easily"
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein": "42g",
+      "carbs": "8g",
+      "fat": "22g"
+    },
+    "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400"
+  },
+  {
+    "id": 5,
+    "name": "Vegetable Soup",
+    "description": "Hearty vegetable soup perfect for meal prep",
+    "prepTime": "20 minutes",
+    "cookTime": "45 minutes",
+    "servings": 6,
+    "difficulty": "Easy",
+    "category": "Soup",
+    "cuisine": "International",
+    "dietary": ["Vegetarian", "Vegan", "Low Calorie"],
+    "ingredients": [
+      {"amount": "3", "type": "quantity", "name": "carrots"},
+      {"amount": "2", "type": "quantity", "name": "celery"},
+      {"amount": "1", "type": "quantity", "name": "onion"},
+      {"amount": "2", "type": "quantity", "name": "potatoes"},
+      {"amount": "2", "type": "quantity", "name": "tomatoes"},
+      {"amount": "1", "type": "quantity", "name": "vegetable broth"},
+      {"amount": "3", "type": "quantity", "name": "garlic"},
+      {"amount": "1", "type": "quantity", "name": "herbs"},
+      {"amount": "1", "type": "quantity", "name": "salt"},
+      {"amount": "1", "type": "quantity", "name": "pepper"}
+    ],
+    "instructions": [
+      "Chop all vegetables into similar sizes",
+      "Sauté onion, celery, and carrots in oil",
+      "Add garlic and cook for 1 minute",
+      "Add vegetable broth and bring to boil",
+      "Add remaining vegetables and herbs",
+      "Simmer for 30-40 minutes until vegetables are tender"
+    ],
+    "nutrition": {
+      "calories": 120,
+      "protein": "4g",
+      "carbs": "18g",
+      "fat": "3g"
+    },
+    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400"
+  },
+  {
+    "id": 6,
+    "name": "Overnight Oats",
+    "description": "Easy breakfast that's ready in the morning",
+    "prepTime": "5 minutes",
+    "cookTime": "0 minutes",
+    "servings": 1,
+    "difficulty": "Easy",
+    "category": "Breakfast",
+    "cuisine": "American",
+    "dietary": ["Vegetarian", "High Fiber"],
+    "ingredients": [
+      {"amount": "1", "type": "quantity", "name": "oats"},
+      {"amount": "1", "type": "quantity", "name": "milk"},
+      {"amount": "1", "type": "quantity", "name": "chia seeds"},
+      {"amount": "1", "type": "quantity", "name": "honey"},
+      {"amount": "1", "type": "quantity", "name": "vanilla extract"},
+      {"amount": "1", "type": "quantity", "name": "berries"}
+    ],
+    "instructions": [
+      "Mix oats, milk, chia seeds, and vanilla in a jar",
+      "Add honey and stir well",
+      "Refrigerate overnight (8+ hours)",
+      "Top with fresh berries before serving"
+    ],
+    "nutrition": {
+      "calories": 280,
+      "protein": "12g",
+      "carbs": "45g",
+      "fat": "8g"
+    },
+    "image": "https://images.unsplash.com/photo-1517686469429-8bdb88b9f907?w=400"
+  },
+  {
+    "id": 7,
+    "name": "Turkey Meatballs",
+    "description": "Lean protein meatballs with Italian herbs",
+    "prepTime": "15 minutes",
+    "cookTime": "20 minutes",
+    "servings": 4,
+    "difficulty": "Medium",
+    "category": "Main Dish",
+    "cuisine": "Italian",
+    "dietary": ["High Protein", "Low Carb"],
+    "ingredients": [
+      {"amount": "1", "type": "lb", "name": "ground turkey"},
+      {"amount": "1", "type": "quantity", "name": "breadcrumbs"},
+      {"amount": "1", "type": "quantity", "name": "egg"},
+      {"amount": "1", "type": "quantity", "name": "parmesan cheese"},
+      {"amount": "3", "type": "quantity", "name": "garlic"},
+      {"amount": "1", "type": "quantity", "name": "italian herbs"},
+      {"amount": "1", "type": "quantity", "name": "onion"},
+      {"amount": "1", "type": "quantity", "name": "salt"},
+      {"amount": "1", "type": "quantity", "name": "pepper"}
+    ],
+    "instructions": [
+      "Mix all ingredients in a large bowl",
+      "Form into 1-inch meatballs",
+      "Heat oil in a large skillet",
+      "Cook meatballs until browned on all sides",
+      "Add sauce and simmer for 10 minutes"
+    ],
+    "nutrition": {
+      "calories": 240,
+      "protein": "28g",
+      "carbs": "8g",
+      "fat": "12g"
+    },
+    "image": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=400"
+  },
+  {
+    "id": 8,
+    "name": "Cauliflower Rice Bowl",
+    "description": "Low-carb rice alternative with vegetables and protein",
+    "prepTime": "10 minutes",
+    "cookTime": "15 minutes",
+    "servings": 2,
+    "difficulty": "Easy",
+    "category": "Main Dish",
+    "cuisine": "Asian",
+    "dietary": ["Low Carb", "Gluten Free", "Vegetarian"],
+    "ingredients": [
+      {"amount": "1", "type": "quantity", "name": "cauliflower"},
+      {"amount": "1", "type": "quantity", "name": "edamame"},
+      {"amount": "2", "type": "quantity", "name": "carrots"},
+      {"amount": "1", "type": "quantity", "name": "soy sauce"},
+      {"amount": "1", "type": "quantity", "name": "sesame oil"},
+      {"amount": "2", "type": "quantity", "name": "garlic"},
+      {"amount": "1", "type": "quantity", "name": "ginger"},
+      {"amount": "2", "type": "quantity", "name": "green onions"}
+    ],
+    "instructions": [
+      "Grate cauliflower into rice-like pieces",
+      "Sauté garlic and ginger in sesame oil",
+      "Add cauliflower and stir-fry for 5 minutes",
+      "Add vegetables and edamame",
+      "Season with soy sauce and green onions"
+    ],
+    "nutrition": {
+      "calories": 180,
+      "protein": "12g",
+      "carbs": "15g",
+      "fat": "8g"
+    },
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400"
+  }
+] 
